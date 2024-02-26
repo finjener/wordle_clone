@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>words.txt</file>
+        <file>tick.png</file>
+    </qresource>
+</RCC>
