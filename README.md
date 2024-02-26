@@ -2,6 +2,19 @@
 
 Original game link: https://www.nytimes.com/games/wordle/index.html
 
+## Screenshots
+![1](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/1.png)
+![2](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/2.png)
+![3](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/3.png)
+![4](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/4.png)
+![5](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/5.png)
+![6](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/6.png)
+![7](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/7.png)
+![9](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/9.png)
+![10](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/10.png)
+![11](https://github.com/ferhatsencer/wordle_clone/blob/main/screenshots/11.png)
+
+
 ## Game Explanation
 
 _**Wordle**_ is a web-based word game created and developed by Welsh software engineer Josh Wardle. Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
