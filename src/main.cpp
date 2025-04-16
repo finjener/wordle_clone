@@ -1,19 +1,18 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include <QQmlContext>
-#include "WordleBackend.h"
+#include "controller/GameController.h"
 
 int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
 
-    qmlRegisterType<WordleBackend>("Wordle", 1, 0, "WordleBackend");
+    qmlRegisterType<GameController>("Wordle", 1, 0, "GameController");
+    qmlRegisterType<GameModel>("Wordle", 1, 0, "GameModel");
+    qmlRegisterType<WordModel>("Wordle", 1, 0, "WordModel");
+    qmlRegisterType<WordEvaluator>("Wordle", 1, 0, "WordEvaluator");
 
     QQmlApplicationEngine engine;
 
-    WordleBackend wordleBackend;
-    engine.rootContext()->setContextProperty("wordleBackend", &wordleBackend);
-
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/src/view/MainView.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)
@@ -23,4 +22,4 @@ int main(int argc, char *argv[]) {
     engine.load(url);
 
     return app.exec();
-}
+} 

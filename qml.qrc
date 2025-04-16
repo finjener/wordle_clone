@@ -1,7 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>words.txt</file>
         <file>tick.png</file>
+        <file>src/view/MainView.qml</file>
+        <file>src/view/components/Header.qml</file>
+        <file>src/view/components/GridItem.qml</file>
+        <file>src/view/components/GameGrid.qml</file>
+        <file>src/view/components/InfoBox.qml</file>
+        <file>src/view/components/PlayAgainButton.qml</file>
     </qresource>
 </RCC>
